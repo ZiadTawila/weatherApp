@@ -91,3 +91,82 @@ body{
     text-align: left;
     display: none;
 }
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 420px;
+        padding: 30px 25px;
+    }
+
+    .temp {
+        font-size: 55px;
+    }
+
+    .city {
+        font-size: 28px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 25px 18px;
+    }
+
+    .search input {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .search button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .weather-icon {
+        width: 150px;
+    }
+
+    .temp {
+        font-size: 45px;
+    }
+
+    .city {
+        font-size: 24px;
+    }
+
+    .details {
+        justify-content: space-around;
+        gap: 12px;
+    }
+
+    .details img {
+        width: 35px;
+    }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 350px) {
+    .card {
+        padding: 20px 12px;
+    }
+
+    .search {
+        gap: 6px;
+    }
+
+    .search input {
+        font-size: 12px;
+    }
+
+    .temp {
+        font-size: 38px;
+    }
+
+    .city {
+        font-size: 21px;
+    }
